@@ -1,4 +1,8 @@
 # jest-demo-hello-world
 
-To install and 
+Clone code from Git
+- git clone https://github.com/eryu-se/jest-demo-hello-world.git
+
+Install
+- npm init 
 - npm install --save @types/jest
