@@ -1,0 +1,17 @@
+{
+  "name": "jest-demo-hello-world",
+  "version": "1.0.0",
+  "description": "jest-demo-hello-world",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "erdal",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "@types/jest": "^27.5.0"
+  }
+}
