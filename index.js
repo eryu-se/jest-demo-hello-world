@@ -2,6 +2,6 @@ function practiceTest(phrase) {
     return phrase + "!";
   }
   
-  module.exports = {
+  export default {
     practiceTest,
   }
