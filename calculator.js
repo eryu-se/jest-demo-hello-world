@@ -9,5 +9,6 @@ const mathOperations = {
     product: function(a,b) {
         return a * b
     }
- }
-export default mathOperations
+}
+
+module.exports = mathOperations
