@@ -9,9 +9,22 @@
   "author": "erdal",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.0.3"
+    "jest": "^28.0.3",
+    "jest-html-reporter": "^3.5.0"
   },
   "dependencies": {
     "@types/jest": "^27.5.0"
+  },
+  "jest": {
+    "collectCoverage":true,
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Report"
+        }
+      ]
+    ]
   }
 }
