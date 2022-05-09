@@ -3,7 +3,7 @@ const { stringMatch } = require ("../stringmatch");
 let received = "Hello World";
 let expected = "Hello World!";
 
-describe("Test suite | match strings", () => {
+describe("String test, match strings", () => {
     describe("Test case 1", () => {
         test("String match, success",() => {
             expect(stringMatch(received)).toMatch(/World/);

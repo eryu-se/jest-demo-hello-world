@@ -1,6 +1,6 @@
 const { stringMatch } = require ('../stringmatch');
 
-describe("Calc test, truthiness", () => {
+describe("String test, truthiness", () => {
     describe("TC1", () => {
         test("to be null", () => {
             expect(stringMatch()).toBeNull()
