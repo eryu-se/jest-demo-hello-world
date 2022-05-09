@@ -1,4 +1,4 @@
-# jest-demo-calculator
+# Jest Demo projcet - Calculator
 
 #Install Node.js
 - Download and install needed packages from below link
