@@ -1,23 +1,22 @@
-const mathOperations = require('../calculator');
+const mathOperations = require ('../calculator');
 
-var num1 = 100;
-var num2 = -20;
-var num3 = 0;
-
-describe("Calculator test suite, match numbers", () => {
-    describe("Test case 1", () => {
-        test("Greater than", () => {
-            expect(num1).toBeGreaterThan(10)
+describe("Calc test, match numbers", () => {
+    describe("TC1", () => {
+        test("greater than", () => {
+            let result = mathOperations.sum(1,2)
+            expect(result).toBeGreaterThan(2)
         })
     })
-    describe("Test case 2", () => {
-        test("Less than or equal", () => {
-            expect(num2).toBeLessThanOrEqual(0)
+    describe("TC2", () => {
+        test("less than or equal", () => {
+            let result = mathOperations.diff(10,2)
+            expect(result).toBeLessThanOrEqual(8)
         })
     })
-    describe("Test case 3", () => {
-        test("Greater than or equal", () => {
-            expect(num3).toBeGreaterThanOrEqual(0)
+    describe("TC3", () => {
+        test("greater than or equal", () => {
+            let result = mathOperations.product(2,8)
+            expect(result).toBeGreaterThanOrEqual(16)
         })
     })
 })

@@ -1,26 +1,26 @@
 const mathOperations = require('../calculator');
  
-describe("Calculator test suite", () => {
-    describe("Test case 1", () => { 
+describe("Calc test", () => {
+    describe("TC1", () => { 
         test('adding 1 + 2 should return 3', () => {
             // arrange and act
-            var result = mathOperations.sum(1,2)
+            let result = mathOperations.sum(1,2)
             // assert
             expect(result).toBe(3);
         })
     })
-    describe("Test case 2", () => { 
+    describe("TC2", () => { 
         test("subtracting 2 from 10 should return 8", () => {
             // arrange and act
-            var result = mathOperations.diff(10,2)
+            let result = mathOperations.diff(10,2)
             // assert
             expect(result).toBe(8);
         })
     })
-    describe("Test case 3", () => { 
+    describe("TC3", () => { 
         test("multiplying 2 and 8 should return 16", () => {
             // arrange and act
-            var result = mathOperations.product(2,8)
+            let result = mathOperations.product(2,8)
             // assert
             expect(result).toBe(16);
         })

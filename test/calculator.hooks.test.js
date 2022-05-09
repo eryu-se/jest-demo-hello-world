@@ -1,13 +1,12 @@
-const mathOperations = require('../calculator');
+const mathOperations = require ('../calculator');
 
-describe("Calculator tests, hooks", () => {
-    var input1 = 0
-    var input2 = 0
+describe("Calc test, hooks", () => {
+    let input1 = 0
+    let input2 = 0
    
     beforeAll(() => {
         console.log("beforeAll called");
     })
-   
     afterAll(() => {
         console.log("afterAll called");
     })
@@ -19,12 +18,12 @@ describe("Calculator tests, hooks", () => {
     afterEach(() => {
         console.log("afterEach called");
     })
-   
-    test('adding 1 + 2 should return 3', () => {
-        // arrange and act
-        var result = mathOperations.sum(input1,input2)
-   
-        // assert
-        expect(result).toBe(3);
+    describe("TC1", () => {
+        test('adding 1 + 2 should return 3', () => {
+            // arrange and act
+            let result = mathOperations.sum(input1,input2)
+            // assert
+            expect(result).toBe(3);
+        })
     })
 })

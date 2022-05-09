@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "erdal",
+  "author": "eryu-se",
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.0.3",
@@ -22,7 +22,7 @@
       [
         "./node_modules/jest-html-reporter",
         {
-          "pageTitle": "Test Report"
+          "pageTitle": "Jest html - Test Report"
         }
       ]
     ]
