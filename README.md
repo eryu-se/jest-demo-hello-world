@@ -8,7 +8,6 @@
 - git clone https://github.com/eryu-se/jest-demo-calculator.git
 
 # Install
-- npm init 
 - npm install
 
 # Test (html test report will be generated)
