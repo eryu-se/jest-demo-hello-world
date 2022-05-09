@@ -1,8 +1,16 @@
-# jest-demo-hello-world
+# jest-demo-calculator
 
-Clone code from Git
-- git clone https://github.com/eryu-se/jest-demo-hello-world.git
+#Install Node.js
+- Download and install needed packages from below link
+    - https://nodejs.org/en/download/
 
-Install
+#Clone code from Git
+- git clone https://github.com/eryu-se/jest-demo-calculator.git
+
+#Install
 - npm init 
-- npm install --save @types/jest
+- npm install
+
+#Test (html test report will be generated)
+- npm test (no outputFile)
+- npm test -- --json --outputFile="output.json" (with outputFile)

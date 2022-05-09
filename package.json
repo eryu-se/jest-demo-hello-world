@@ -1,8 +1,8 @@
 {
-  "name": "jest-demo-hello-world",
+  "name": "jest-demo-calculator",
   "version": "1.0.0",
-  "description": "jest-demo-hello-world",
-  "main": "index.js",
+  "description": "jest-demo-calculator",
+  "main": "./calculator.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,7 +18,7 @@
   "jest": {
     "collectCoverage":true,
     "reporters": [
-      "default",
+      "default", 
       [
         "./node_modules/jest-html-reporter",
         {
