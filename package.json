@@ -1,7 +1,7 @@
 {
-  "name": "jest-demo-calculator",
+  "name": "jest-demo-math-string-list",
   "version": "1.0.0",
-  "description": "jest-demo-math-string-list",
+  "description": "Jest Demo Project - Mathoperations, string and list",
   "main": "./math.js, ./string.js, ./shoppinglist.js", 
   "scripts": {
     "test": "jest"
