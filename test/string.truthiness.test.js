@@ -12,8 +12,8 @@ describe("String test, truthiness", () => {
         })
     })
     describe("TC3", () => {
-        test("string to be defined", () => {
-            let name = "joe"
+        let name = "joe"
+        test("string to be defined", () => {    
             // name has a valid value
             expect(name).toBeDefined()
         })
