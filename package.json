@@ -22,7 +22,7 @@
       [
         "./node_modules/jest-html-reporter",
         {
-          "pageTitle": "Jest Demo Calculator & String matcher - Html Test Report"
+          "pageTitle": "Jest Demo Calculator - Html Test Report"
         }
       ]
     ]
