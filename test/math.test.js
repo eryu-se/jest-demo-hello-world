@@ -1,6 +1,6 @@
 const mathOperations = require ('../math');
 
-describe("Math operations test, match numbers", () => {
+describe("Math operations test", () => {
     describe("TC1", () => { 
         test("'1+2' not to be 4", () => {
             // arrange and act
