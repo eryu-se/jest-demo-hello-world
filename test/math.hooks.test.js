@@ -18,12 +18,10 @@ describe("Math operations test, hooks", () => {
     afterEach(() => {
         console.log("afterEach called");
     })
-    describe("TC1", () => {
-        test("'1+2' to be '3'", () => {
-            // arrange and act
-            let result = mathOperations.sum(input1,input2)
-            // assert
-            expect(result).toBe(3);
-        })
+    test("'1+2' to be '3'", () => {
+        // arrange and act
+        let result = mathOperations.sum(input1,input2)
+        // assert
+        expect(result).toBe(3);
     })
 })
