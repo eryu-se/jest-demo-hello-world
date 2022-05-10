@@ -1,8 +1,8 @@
 {
   "name": "jest-demo-calculator",
   "version": "1.0.0",
-  "description": "jest-demo-calculator",
-  "main": "./calculator.js",
+  "description": "jest-demo-math-string-list",
+  "main": "./math.js, ./string.js, ./shoppinglist.js", 
   "scripts": {
     "test": "jest"
   },
@@ -22,7 +22,7 @@
       [
         "./node_modules/jest-html-reporter",
         {
-          "pageTitle": "Jest Demo Calculator - Html Test Report"
+          "pageTitle": "Jest Demo - Mathoperations, string and list Test Report"
         }
       ]
     ]

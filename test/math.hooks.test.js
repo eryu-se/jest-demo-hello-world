@@ -1,6 +1,6 @@
-const mathOperations = require ('../calculator');
+const mathOperations = require ('../math');
 
-describe("Calc test, hooks", () => {
+describe("Math operations test, hooks", () => {
     let input1 = 0
     let input2 = 0
    

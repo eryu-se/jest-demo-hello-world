@@ -5350,3 +5350,7 @@ node_modules/.bin/esparse.cmd
 node_modules/.bin/browserslist.ps1
 node_modules/.bin/browserslist.cmd
 coverage/lcov-report/stringmatch.js.html
+coverage/lcov-report/shoppinglist.js.html
+coverage/lcov-report/math.js.html
+coverage/lcov-report/string.js.html
+coverage/lcov-report/strings.js.html

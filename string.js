@@ -1,4 +1,4 @@
-function stringMatch(phrase) {
+function string(phrase) {
     if (phrase) {
         return phrase + "!";
     }
@@ -8,4 +8,4 @@ function stringMatch(phrase) {
     else 
         return null;
 }
-module.exports = { stringMatch, };
+module.exports = { string, }
