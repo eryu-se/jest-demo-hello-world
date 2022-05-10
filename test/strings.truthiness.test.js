@@ -8,13 +8,14 @@ describe("String test, truthiness", () => {
     })
     describe("TC2", () => {
         test("string not to be null", () => {
-            expect(string("blabla")).not.toBeNull()   
+            expect(string("")).not.toBeNull()   
         })
     })
     describe("TC3", () => {
         test("string to be defined", () => {
+            let name = "joe"
             // name has a valid value
-            expect(string("joe")).toBeDefined()
+            expect(name).toBeDefined()
         })
     })
     describe("TC4", () => {
@@ -24,12 +25,12 @@ describe("String test, truthiness", () => {
         })
     })
     describe("TC5", () => {
-        test("null to be falsy", () => {
+        test("null to be false", () => {
             expect(string()).toBeFalsy()
         })
     })  
     describe("TC6", () => {
-        test("zero to be falsy", () => {
+        test("zero to be false", () => {
             expect(string(0)).toBeFalsy()
         })
     })
