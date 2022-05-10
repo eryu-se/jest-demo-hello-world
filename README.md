@@ -1,14 +1,13 @@
 # Jest Demo project - Mathoperations, string and list
 
 # Prerequisites 
-    # Install Node.js
-    Download and install Node.js from below link
-        - https://nodejs.org/en/download/
-    # VSCode Extensions
-        - Jest runner
+- Install    
+    - Node.js - https://nodejs.org/en/download/
+- VSCode Extensions
+    - Jest runner - https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner
 
 # Clone code from Git
-- git clone https://github.com/eryu-se/jest-demo-calculator.git
+- git clone https://github.com/eryu-se/jest-demo-math-string-list.git
 
 # Install
 - npm install
