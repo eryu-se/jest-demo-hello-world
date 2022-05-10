@@ -7,7 +7,7 @@
     - Jest runner - https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner
 
 # Clone code from Git
-- git clone https://github.com/eryu-se/jest-demo-calculator.git
+- git clone https://github.com/eryu-se/jest-demo-math-string-list.git
 
 # Install
 - npm install
