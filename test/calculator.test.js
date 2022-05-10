@@ -2,7 +2,7 @@ const mathOperations = require('../calculator');
  
 describe("Calc test", () => {
     describe("TC1", () => { 
-        test('adding 1 + 2 should return 3', () => {
+        test("'1+2' to be '3'", () => {
             // arrange and act
             let result = mathOperations.sum(1,2)
             // assert
@@ -10,7 +10,7 @@ describe("Calc test", () => {
         })
     })
     describe("TC2", () => { 
-        test("subtracting 2 from 10 should return 8", () => {
+        test("'10-2' to be 8", () => {
             // arrange and act
             let result = mathOperations.diff(10,2)
             // assert
@@ -18,7 +18,7 @@ describe("Calc test", () => {
         })
     })
     describe("TC3", () => { 
-        test("multiplying 2 and 8 should return 16", () => {
+        test("'2*8' to be '16'", () => {
             // arrange and act
             let result = mathOperations.product(2,8)
             // assert

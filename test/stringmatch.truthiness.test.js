@@ -1,34 +1,34 @@
 const { stringMatch } = require ('../stringmatch');
 
-describe("String test, truthiness", () => {
+describe("String match test, truthiness", () => {
     describe("TC1", () => {
-        test("to be null", () => {
+        test("'null' to be null", () => {
             expect(stringMatch()).toBeNull()
         })
     })
     describe("TC2", () => {
-        test("not to be null", () => {
+        test("'blabla' not to be null", () => {
             expect(stringMatch("blabla")).not.toBeNull()   
         })
     })
     describe("TC3", () => {
-        test("joe is valid name", () => {
+        test("'joe' to be truthy", () => {
             // name has a valid value
             expect(stringMatch("joe")).toBeTruthy()
         })
     })
     describe("TC4", () => {
-        test("null is false", () => {
+        test("failed test, to be truthy but null is falsy", () => {
             expect(stringMatch()).toBeTruthy()
         })
     })
     describe("TC5", () => {
-        test("null is false or negative", () => {
+        test("'null' to be falsy", () => {
             expect(stringMatch()).toBeFalsy()
         })
     })  
     describe("TC6", () => {
-        test("'0' is false", () => {
+        test("'0' to be falsy", () => {
             expect(stringMatch(0)).toBeFalsy()
         })
     })

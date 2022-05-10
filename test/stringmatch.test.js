@@ -3,19 +3,19 @@ const { stringMatch } = require ("../stringmatch");
 let received = "Hello World";
 let expected = "Hello World!";
 
-describe("String test, match strings", () => {
-    describe("Test case 1", () => {
-        test("String match, success",() => {
+describe("String match test", () => {
+    describe("TC1", () => {
+        test("'/World/' to match",() => {
             expect(stringMatch(received)).toMatch(/World/);
         })
     }) 
-    describe("Test case 2", () => {
-        test("String match, failure",() => {
+    describe("TC2", () => {
+        test("'/abc/' not to match",() => {
             expect(stringMatch(received)).not.toMatch(/abc/)
         })
     })
-    describe("Test case 3", () => {
-        test("Given 'Hello World', return 'Hello World!'", () => {
+    describe("TC3", () => {
+        test("'Hello World!' to be", () => {
             expect(stringMatch(received)).toBe(expected);
         })
     })
