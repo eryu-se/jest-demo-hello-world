@@ -8,4 +8,4 @@ function string(phrase) {
     else 
         return null;
 }
-module.exports = { string, }
+module.exports = { string };

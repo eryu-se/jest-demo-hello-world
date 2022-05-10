@@ -5,4 +5,4 @@ const shoppingList = [
     'paper towels',
     'milk'
 ];
-module.exports = shoppingList
+module.exports = shoppingList;
