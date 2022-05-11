@@ -4,5 +4,5 @@ const shoppingList = [
     'trash bags',
     'paper towels',
     'milk'
-];
-module.exports = shoppingList;
+]
+module.exports = shoppingList

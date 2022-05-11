@@ -1,11 +1,11 @@
 function string(phrase) {
     if (phrase) {
-        return phrase + "!";
+        return phrase + "!"
     }
     else if (phrase == 0) {
-        return phrase;
+        return phrase
     }
     else 
-        return null;
+        return null
 }
-module.exports = { string };
+module.exports = { string }
